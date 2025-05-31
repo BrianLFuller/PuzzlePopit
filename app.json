@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Puzzle Pop!",
+    "slug": "puzzle-popit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B3E5FC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brianfuller.puzzlepopit"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B3E5FC"
+      },
+      "package": "com.brianfuller.puzzlepopit"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-av",
+      "expo-haptics",
+      "expo-linear-gradient"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "puzzle-popit"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/puzzle-popit"
+    },
+    "description": "A delightful puzzle game for young players with shape puzzles, pop-it bubbles, and balloon popping fun!",
+    "primaryColor": "#4CAF50",
+    "androidStatusBar": {
+      "backgroundColor": "#B3E5FC",
+      "translucent": false,
+      "barStyle": "dark-content"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#B3E5FC",
+      "barStyle": "dark-content"
+    }
+  }
+}
